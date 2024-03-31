@@ -1,0 +1,518 @@
+body{
+    height: 780px;
+    width: 420px;
+}
+
+.header__donuts {
+    width: 100%;
+    bottom: 30px;
+    right: 0px;
+    position: relative;
+    display:grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
+  }
+  .donut {
+    animation-name: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin: 0px auto;
+    width: 120px;
+    height: 128px;
+    background: url(/MIPMAP/donut.png) center 100%/100% no-repeat;
+    filter: hue-rotate(40deg) brightness(120%) drop-shadow(0px 0px 10px rgb(255, 195, 127));
+    position: relative;
+  }
+  .donut:nth-child(1) {
+    animation-delay: 0.12s;  
+    left: -60px;
+  }
+  .donut:nth-child(2) {
+    animation-delay: 0.24s;
+    left: -60px;
+  }
+  .donut:nth-child(3) {
+    animation-delay: 0.36s;
+    left: -60px;
+  }
+  .donut:nth-child(4) {
+    animation-delay: 0.48s;
+    left: -60px;
+  }
+  .donut:nth-child(5) {
+    animation-delay: 0.6s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(6) {
+    animation-delay: 0.72s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(7) {
+    animation-delay: 0.84s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(8) {
+    animation-delay: 0.96s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(9) {
+    animation-delay: 1.08s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(10) {
+    animation-delay: 1.2s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(11) {
+    animation-delay: 1.32s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(12) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(13) {
+    animation-delay: 1.44s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(14) {
+    animation-delay: 1.44s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(15) {
+    animation-delay: 1.44s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(16) {
+    animation-delay: 1.44s;
+    left: 100px;
+    top: -70px;
+  }
+  .donut:nth-child(17) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(18) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(19) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut:nth-child(20) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+  }
+  .donut--pink {
+    animation-duration: 4s;
+    background: url(/MIPMAP/donut2.png) center 100%/100% no-repeat;
+  }
+  @-moz-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @-webkit-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @-o-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+.donut {
+    animation-name: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin: 0px auto;
+    width: 80px;
+    height: 128px;
+    background: url(/MIPMAP/donut.png) center 100%/100% no-repeat;
+    filter: hue-rotate(40deg) brightness(120%) drop-shadow(0px 0px 10px rgb(255, 195, 127));
+    position: relative;
+}
+
+.donut:nth-child(1) {
+    animation-delay: 0.12s;  
+    top: -20px;
+    left: -60px;
+}
+.donut:nth-child(2) {
+    animation-delay: 0.24s;
+    left: -60px;
+    top: -20px;
+}
+.donut:nth-child(3) {
+    animation-delay: 0.36s;
+    left: -60px;
+    top: -20px;
+}
+.donut:nth-child(4) {
+    animation-delay: 0.48s;
+    left: -60px;
+    top: -20px;
+}
+
+.donut:nth-child(5) {
+    animation-delay: 0.6s;
+    left: 0px;
+    top: -70px;
+}
+.donut:nth-child(6) {
+    animation-delay: 0.72s;
+    left: 0px;
+    top: -70px;
+}
+.donut:nth-child(7) {
+    animation-delay: 0.84s;
+    left: 0px;
+    top: -70px;
+}
+
+.donut:nth-child(9) {
+    animation-delay: 1.08s;
+    left: -60px;
+    top: -70px;
+}
+
+.donut:nth-child(8) {
+    animation-delay: 0.96s;
+    left: 0px;
+    top: -70px;
+}
+
+.donut:nth-child(10) {
+    animation-delay: 1.2s;
+    left: -60px;
+    top: -70px;
+}
+.donut:nth-child(11) {
+    animation-delay: 1.32s;
+    left: -60px;
+    top: -70px;
+}
+.donut:nth-child(12) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -70px;
+}
+
+.donut:nth-child(13) {
+    animation-delay: 1.44s;
+    left: 0px;
+    top: -90px;
+}
+.donut:nth-child(14) {
+    animation-delay: 1.44s;
+    left: 0px;
+    top: -90px;
+}
+.donut:nth-child(15) {
+    animation-delay: 1.44s;
+    left: 0px;
+    top: -90px;
+}
+.donut:nth-child(16) {
+    animation-delay: 1.44s;
+    left: 0px;
+    top: -90px;
+}
+
+.donut:nth-child(17) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -100px;
+}
+.donut:nth-child(18) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -100px;
+}
+.donut:nth-child(19) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -100px;
+}
+.donut:nth-child(20) {
+    animation-delay: 1.44s;
+    left: -60px;
+    top: -100px;
+}
+
+.donut--pink {
+    animation-duration: 4s;
+    background: url(/MIPMAP/donut2.png) center 100%/100% no-repeat;
+}
+
+@-moz-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @-webkit-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @-o-keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @keyframes float {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 50px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+.flipper{
+    position: absolute;
+    top: 0px;
+    left: -400px;
+    height: 780px;
+    width: 840px;
+}
+
+/* .flipper-animate{
+    animation: page-flip 1s linear forwards;
+} */
+
+.menu-container{
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    box-shadow: 1px 1px 10px rgb(203, 203, 203);
+    height: 570px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.94);
+    z-index: 1;
+}
+
+@keyframes page-flip {
+    0%{transform: rotatey(0deg);}
+    100%{transform: rotatey(180deg);}
+}
+
+.heading{
+    color: white;
+    background-color: orange;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.product{
+    width: 220px;
+    border-bottom: 1px solid orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;   
+    display: flex;
+}
+
+.price{
+    width: 50px;
+    padding-left: 10px;
+    text-align: center;
+    border-bottom: 1px solid orange;
+
+}
+
+.product-head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.price-head{
+    padding-left: 0px !important;
+}
+
+.product button{
+    margin-left: 127px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.product button:focus{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    rotate: 360deg;
+}
+
+.product input{
+    width: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.page-button-container{
+    position: absolute;
+    top: 640px;
+    left: -30px;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.page-button-container button{
+    padding-top: 10px;
+    width: 25px;
+    margin-top: -23px;
+    padding-bottom: 3px;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+.active{
+    background-color: white !important;
+    color: orange !important;
+    border: 2px solid orange !important;
+    scale: 1.4;
+}
+
+.page-button-container button:hover{
+    scale: 1.4;
+}
+
+.spiral-container{
+    position: absolute;
+    left: 2px;
+    top: 78px;
+    z-index: 2;
+}
+
+.ring{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.ring-container{
+    margin-top: -20px;
+}
+
+.hole{
+    height: 9px;
+    width: 9px;
+    background-color: black;
+    position: relative;
+    top: -18px;
+    left: 23px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.white-block{
+    height: 15px;
+    width: 14px;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    left: 17.5px;
+    z-index: 1;
+}
+
+.place-order-btn{
+    position: absolute;
+    top: 580px;
+    left: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    z-index: 3;
+}
