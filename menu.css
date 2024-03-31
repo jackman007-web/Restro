@@ -19,7 +19,7 @@ body{
     margin: 0px auto;
     width: 120px;
     height: 128px;
-    background: url(/MIPMAP/donut.png) center 100%/100% no-repeat;
+    background: url(/donut.png) center 100%/100% no-repeat;
     filter: hue-rotate(40deg) brightness(120%) drop-shadow(0px 0px 10px rgb(255, 195, 127));
     position: relative;
   }
@@ -121,7 +121,7 @@ body{
   }
   .donut--pink {
     animation-duration: 4s;
-    background: url(/MIPMAP/donut2.png) center 100%/100% no-repeat;
+    background: url(/donut2.png) center 100%/100% no-repeat;
   }
   @-moz-keyframes float {
     0% {
